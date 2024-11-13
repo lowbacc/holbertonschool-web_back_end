@@ -1,3 +1,6 @@
+/**
+ * Constants are block-scoped, much like variables defined using the let statement.
+ */
 export function taskFirst() {
     const task = 'I prefer const when I can.';
     return task;
