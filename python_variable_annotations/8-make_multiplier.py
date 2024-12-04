@@ -11,5 +11,5 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
         """ Function that takes a float value as argument"""
 
         return value * multiplier
-    
+
     return multiplier_function
