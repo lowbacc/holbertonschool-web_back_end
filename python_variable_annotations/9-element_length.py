@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """ Module that takes an iterable of sequences as argument"""
 
 from typing import List, Tuple, Iterable, Sequence
