@@ -15,7 +15,8 @@ async def wait_random(max_delay: int = 10) -> float:
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
-    """ Asynchronous coroutine that takes an integer n and an integer max_delay"""
+    """ Asynchronous coroutine that takes an integer n
+    and an integer max_delay"""
 
     tasks = [wait_random(max_delay) for _ in range(n)]
     delays = await asyncio.gather(*tasks)
