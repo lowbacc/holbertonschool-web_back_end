@@ -1,5 +1,3 @@
-import { readDatabase } from '../utils';
-
 export default class StudentsController {
   static async getAllStudents(req, res) {
     try {

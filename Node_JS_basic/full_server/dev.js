@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 
 const database = process.argv[2] || './database.csv';
 
-const command = `npx nodemon full_server/dev.js ${database}`;
+const command = `npx nodemon full_server/server.js ${database}`;
 
 exec(command, (error, stdout, stderr) => {
   if (error) {
